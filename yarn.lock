@@ -2841,6 +2841,11 @@ commander@^2.20.0, commander@^2.20.3:
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
+commander@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/commander/-/commander-4.1.1.tgz"
+  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+
 commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
@@ -3097,7 +3102,7 @@ cross-fetch@3.1.4:
   dependencies:
     node-fetch "2.6.1"
 
-cross-spawn@7.0.3, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
+cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -3672,6 +3677,14 @@ entities@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
+
+env-cmd@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.npmjs.org/env-cmd/-/env-cmd-10.1.0.tgz"
+  integrity sha512-mMdWTT9XKN7yNth/6N6g2GuKuJTsKMDHlQFUDacb/heQRRWOTIZ42t1rMHnQu4jYxU1ajdTeJM+9eEETlqToMA==
+  dependencies:
+    commander "^4.0.0"
+    cross-spawn "^7.0.0"
 
 envinfo@^7.7.3:
   version "7.8.1"
@@ -4607,7 +4620,7 @@ gatsby-plugin-page-creator@^3.14.0:
 
 gatsby-plugin-sass@^4.14.0:
   version "4.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-4.14.0.tgz#739e6309fe424dd88c7004d29e75a687e92a7d02"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sass/-/gatsby-plugin-sass-4.14.0.tgz"
   integrity sha512-dnsdU7Nf0BQhNuuyoS67tA6zWucDFkfHBEsURuD9rOFxizdBxZdth81vqnxzuLQBJcTnqnprDhGPhXYBOjCJsQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
@@ -7162,7 +7175,7 @@ package-json@^6.3.0:
 
 package@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/package/-/package-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/package/-/package-1.0.1.tgz#d25a1f99e2506dcb27d6704b83dca8a312e4edcc"
   integrity sha1-0lofmeJQbcsn1nBLg9yooxLk7cw=
 
 parent-module@^1.0.0:
@@ -8362,7 +8375,7 @@ sass-loader@^10.1.1:
 
 sass@^1.43.2:
   version "1.43.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.43.2.tgz#c02501520c624ad6622529a8b3724eb08da82d65"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.43.2.tgz"
   integrity sha512-DncYhjl3wBaPMMJR0kIUaH3sF536rVrOcqqVGmTZHQRRzj7LQlyGV7Mb8aCKFyILMr5VsPHwRYtyKpnKYlmQSQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
