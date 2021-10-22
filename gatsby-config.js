@@ -5,6 +5,13 @@ module.exports = {
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
+        {
+            resolve: 'gatsby-source-contentful',
+            options:{
+                spaceId:process.env.CONTENTFUL_SPACE_ID,
+                accessToken:process.env.CONTENTFUL_ACCESS_TOKEN
+            }
+        },
         `gatsby-plugin-sass`,
         {
             resolve:'gatsby-source-filesystem',
@@ -13,6 +20,7 @@ module.exports = {
                 path: `${__dirname}/src/`
             }
         },
+        'gatsby-plugin-sharp',
         {
             resolve: `gatsby-transformer-remark`,
             options: {
@@ -21,7 +29,15 @@ module.exports = {
               // GitHub Flavored Markdown mode (default: true)
               gfm: true,
               // Plugins configs
-              plugins: [],
+              plugins: [
+                  {
+                      resolve:'gatsby-remark-images',
+                      options:{
+                          maxWidth: 750,
+                          linkImagesToOriginal: false
+                      }
+                  },
+              ],
             },
           },
     ]

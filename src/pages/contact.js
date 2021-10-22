@@ -7,8 +7,8 @@ const ContactPage = () => {
         <Layout>
             <h1>Contact me</h1>
             <p>Email:yoniendyoni@gmail.com<br/>Phone:0543452629</p>
-            <a href="https://www.github.com/Yoni491" target="_blank">GitHub</a><br/>
-            <a href="https://www.linkedin.com/in/yoni-ender-30bbab1a1/" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/Yoni491" target="_blank" rel="noreferrer">GitHub</a><br/>
+            <a href="https://www.linkedin.com/in/yoni-ender-30bbab1a1/" target="_blank" rel="noreferrer">LinkedIn</a>
         </Layout>
       )
 }
