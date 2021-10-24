@@ -7,5 +7,5 @@ I learnt react today!
 
 ## Topics Covered
 
-1.React
-2.Code
+1. React
+2. Code
