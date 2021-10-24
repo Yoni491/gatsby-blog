@@ -16,6 +16,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.4.0",
     "gatsby": "^4.0.0",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-sass": "^4.14.0",
